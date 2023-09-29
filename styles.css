@@ -1,0 +1,74 @@
+body {
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#smile {
+    border: 2px solid yellow;
+    border-radius: 55px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0;
+    padding: 10px;
+    box-shadow: 20px 20px 10px black;
+}
+
+#eye {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 0;
+    grid-row-start: 1;
+    transform: rotate(90deg);
+}
+
+#detail {
+    background-color: black;
+    margin: auto;
+    margin-top: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#mouth {
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    margin: auto;
+    grid-row-start: 2;
+    margin-left: 10px;
+}
+
+#teeth {
+    width: 48px;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+#shoulders {
+    width: 400px;
+    height: 100px;
+    border: 2px inset black;
+    border-radius: 70px 70px 0 0;
+    position: relative;
+    margin: auto;
+    background-image: linear-gradient(45deg, red, blue);
+}
+
+#instructions {
+    margin-top: 200px;
+    position: fixed;
+    left: 20%;
+    right: 20%;
+}
